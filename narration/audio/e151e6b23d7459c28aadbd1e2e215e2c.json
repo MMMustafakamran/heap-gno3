@@ -1,0 +1,9 @@
+{
+ "text": "So basically, the step for the Agno backend is just a callout, no code. There's no Agno agent, no runtime server, and the at ag-ui slash client package isn't in the install step. Umm, the runtime page it links only has a Next JS route with an example agent.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 19.365,
+ "file": "e151e6b23d7459c28aadbd1e2e215e2c.mp3",
+ "clip": "AGNO-angular-01-Quickstart",
+ "at": "notepad"
+}

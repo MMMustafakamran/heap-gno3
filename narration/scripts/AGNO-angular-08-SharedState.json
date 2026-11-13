@@ -1,0 +1,33 @@
+{
+ "clip": "AGNO-angular-08-SharedState",
+ "segments": [
+  {
+   "at": "doc",
+   "text": "Ok so, this is the shared state and agent context page in the CopilotKit docs, for Agno with Angular, and I have implemented this page."
+  },
+  {
+   "at": "ide",
+   "text": "So this is my project, this is the exact code from the doc, the workspace component and the account context."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. So I marked the priority as high, and it shows high on the page. Then I asked the agent what the priority is, and umm, it said it doesn't see any priority."
+  },
+  {
+   "at": "evidence",
+   "text": "Back on the doc. It says the agent and the app both read and write the value."
+  },
+  {
+   "at": "evidence#2",
+   "text": "And this set state call is the write, uh, but the agent can't read it."
+  },
+  {
+   "at": "notepad",
+   "text": "So basically, every time I tried, the agent couldn't see the priority. Agno keeps the app's state on its side, but umm, nothing puts it in the prompt, and the page never shows how an Agno agent reads it."
+  },
+  {
+   "at": "+",
+   "text": "That's it for this one, kindly look into this issue."
+  }
+ ]
+}

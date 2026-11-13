@@ -1,0 +1,33 @@
+{
+ "clip": "AGNO-angular-01-Quickstart",
+ "segments": [
+  {
+   "at": "doc",
+   "text": "Ok so, this is the Angular quickstart page in the CopilotKit docs, for Agno, and I have implemented this page in my project."
+  },
+  {
+   "at": "ide",
+   "text": "So this is my project, with the doc's chat component and app config. Umm, the backend file and the runtime server here, I had to write those myself, because the page never shows them."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. So I asked if it's connected, and it replied with a fun fact about kites. But that answer only works through my own Agno backend and runtime, not anything from the page."
+  },
+  {
+   "at": "evidence",
+   "text": "Back on the doc. The connect the backend step is just this callout, uh, there's no Agno code at all."
+  },
+  {
+   "at": "evidence#2",
+   "text": "And this step says start the backend and runtime with the commands from its guide, but no page has those commands."
+  },
+  {
+   "at": "notepad",
+   "text": "So basically, the step for the Agno backend is just a callout, no code. There's no Agno agent, no runtime server, and the at ag-ui slash client package isn't in the install step. Umm, the runtime page it links only has a Next JS route with an example agent."
+  },
+  {
+   "at": "+",
+   "text": "So following this page, the chat has nothing to talk to. So yeah, this is the issue, kindly fix it."
+  }
+ ]
+}

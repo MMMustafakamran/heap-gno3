@@ -1,0 +1,9 @@
+{
+ "text": "So basically, every time I tried, the agent couldn't see the priority. Agno keeps the app's state on its side, but umm, nothing puts it in the prompt, and the page never shows how an Agno agent reads it.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 13.746,
+ "file": "a004e45a4372deadb2a7607074d807d8.mp3",
+ "clip": "AGNO-angular-08-SharedState",
+ "at": "notepad"
+}

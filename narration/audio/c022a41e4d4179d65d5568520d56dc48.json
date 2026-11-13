@@ -1,0 +1,9 @@
+{
+ "text": "These are the tool functions, but no supervisor agent ever gets them.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 5.341,
+ "file": "c022a41e4d4179d65d5568520d56dc48.mp3",
+ "clip": "AGNO-angular-12-SubAgents",
+ "at": "evidence#2"
+}

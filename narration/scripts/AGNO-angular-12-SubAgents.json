@@ -1,0 +1,37 @@
+{
+ "clip": "AGNO-angular-12-SubAgents",
+ "segments": [
+  {
+   "at": "doc",
+   "text": "Ok so, this is the sub-agents page in the CopilotKit docs, for Agno with Angular, and I have implemented this page."
+  },
+  {
+   "at": "ide",
+   "text": "So this is my project, this is the exact Python file from the doc."
+  },
+  {
+   "at": "demo",
+   "text": "Moving on to the demo. So I asked it to research, write, and critique. The chat answered from my plain agent, but umm, the delegation log stayed empty, because nothing from the page actually runs the sub-agents."
+  },
+  {
+   "at": "evidence",
+   "text": "Back on the doc. The setting up step is just this text, uh, no setup at all."
+  },
+  {
+   "at": "evidence#2",
+   "text": "These are the tool functions, but no supervisor agent ever gets them."
+  },
+  {
+   "at": "evidence#3",
+   "text": "And on the Angular side, these helpers are never defined."
+  },
+  {
+   "at": "notepad",
+   "text": "So the Python file only has the three sub-agents and their tools. There's no supervisor agent and no Agno app to serve it, umm, and read delegations and the renderer config are missing. So no sub-agent ever runs, and the log stays empty."
+  },
+  {
+   "at": "+",
+   "text": "So yeah, please take a look and fix this."
+  }
+ ]
+}

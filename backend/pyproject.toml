@@ -1,0 +1,18 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Agno agent exposed over AG-UI for the CopilotKit Angular harness."
+requires-python = ">=3.10,<3.15"
+dependencies = [
+    "agno",
+    "openai",
+    "ag-ui-protocol",
+    "fastapi",
+    "uvicorn",
+    "python-dotenv",
+    "sqlalchemy[asyncio]",  # HARNESS: SqliteDb (FINDINGS.md #18)
+    "python-multipart",  # HARNESS: AgentOS needs it at start (same as the React quickstart, team note)
+]
+
+[tool.uv]
+package = false

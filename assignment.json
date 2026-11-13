@@ -1,0 +1,731 @@
+{
+ "framework": "Agno",
+ "ui": "angular",
+ "repo": "Agno-Angular",
+ "docBase": "https://docs.copilotkit.ai/angular/agno/",
+ "versions": {
+  "@copilotkit/angular": "0.6.0",
+  "@copilotkit/runtime": "1.87.1",
+  "@ag-ui/client": "1.0.4",
+  "@angular/core": "22.1.4",
+  "@angular/cdk": "22.2.6",
+  "zod": "4.5.4",
+  "express": "5.2.1",
+  "tsx": "4.23.13",
+  "agno": "3.2.0",
+  "fastapi": "0.162.2",
+  "python": "3.13",
+  "@tanstack/ai": "1.2.0",
+  "@tanstack/ai-openai": "1.1.1"
+ },
+ "testedContext": {
+  "os": "Microsoft Windows 11 Pro",
+  "packageManager": "npm 11 (Node 26.7.0)"
+ },
+ "report": {
+  "style": "team",
+  "h1": "Agno",
+  "title": "Agno Angular testing",
+  "quickstartHeading": "Quickstart",
+  "quickstartHeader": null,
+  "clipsToUpload": true,
+  "guidesHeading": "Angular Guides",
+  "columns": [
+   "Page/Section",
+   "Results"
+  ],
+  "resultColumn": 1
+ },
+ "sections": [],
+ "pages": [
+  {
+   "id": "quickstart",
+   "label": "Angular",
+   "kind": "quickstart",
+   "group": null,
+   "child": false,
+   "docPath": "quickstart",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    1,
+    11
+   ],
+   "notes": [
+    "Issue: the backend step is only a callout: no Agno agent, no runtime server and no @ag-ui/client install; the linked runtime page shows only a Next.js route, so the chat has nothing to talk to without guessing."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "AGNO-angular-01-Quickstart",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-01-Quickstart.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "chat-ui",
+   "label": "Chat UI and Customization",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "guides/chat-ui",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Chat UI and Customization - Angular",
+     "clip": "AGNO-angular-02-ChatUi",
+     "loom": null,
+     "narration": null
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "frontend-tools-generative-ui",
+   "label": "Frontend tools and generative UI",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "guides/frontend-tools-generative-ui",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [
+    7,
+    18
+   ],
+   "notes": [
+    "Note: the browser getWeather tool calls /api/weather, which no page shows."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Frontend tools and generative UI - Angular",
+     "clip": "AGNO-angular-03-FrontendToolsGenerativeUi",
+     "loom": null,
+     "narration": null
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "generative-ui-components",
+   "label": "Native generative UI",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "guides/generative-ui-components",
+   "reachable": "in-content",
+   "status": "❌",
+   "findings": [
+    6
+   ],
+   "notes": [
+    "Issue: @copilotkit/angular/generative-ui doesn't exist in the latest package (0.6.0), so the app won't build (TS2307). Linked from Frontend tools and generative UI."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "AGNO-angular-04-NativeGenerativeUi",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-04-NativeGenerativeUi.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "a2ui",
+   "label": "A2UI schemas, styling, and recovery",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "guides/a2ui",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    2
+   ],
+   "notes": [
+    "Issue: productCatalog, dynamicString and the other catalog pieces are never defined, so the app won't build and A2UI stays off."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "AGNO-angular-05-A2ui",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-05-A2ui.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "voice-multimodal",
+   "label": "Voice and multimodal input",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "guides/voice-multimodal",
+   "reachable": "sidebar",
+   "status": "⚠️",
+   "findings": [
+    3
+   ],
+   "notes": [
+    "Note: attachments work, but the voice backend setup link points to a missing #backend anchor on the same page, so there's no transcription and no mic."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "AGNO-angular-06-VoiceMultimodal",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-06-VoiceMultimodal.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "human-in-the-loop",
+   "label": "Human-in-the-loop and interrupts",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "guides/human-in-the-loop",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Human-in-the-loop and interrupts - Angular",
+     "clip": "AGNO-angular-07-HumanInTheLoop",
+     "loom": null,
+     "narration": null
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "shared-state",
+   "label": "Shared state and agent context",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "guides/shared-state",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    4
+   ],
+   "notes": [
+    "Issue: the agent can't read the state the app writes with agent.setState (asked for the priority, it says it has none); the page never shows how an Agno agent reads that state."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Issue",
+     "clip": "AGNO-angular-08-SharedState",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-08-SharedState.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "threads-memory-attachments-headless",
+   "label": "Threads, memory, attachments, and headless UI",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "guides/threads-memory-attachments-headless",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Threads, memory, attachments, and headless UI - Angular",
+     "clip": "AGNO-angular-09-ThreadsMemoryHeadless",
+     "loom": null,
+     "narration": null
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "webmcp",
+   "label": "WebMCP",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "webmcp",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [
+    9
+   ],
+   "notes": [
+    "Note: searchOrders is never defined (TS2304); with a small helper the tool registers on document.modelContext."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "WebMCP - Angular",
+     "clip": "AGNO-angular-10-WebMcp",
+     "loom": null,
+     "narration": null
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "auth",
+   "label": "Authentication",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "auth",
+   "reachable": "in-content",
+   "status": "✅",
+   "findings": [
+    10
+   ],
+   "notes": [
+    "Note: readSessionToken and verifySession are never defined; with small helpers the onRequest hook works (401 signed out, reply signed in)."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Authentication - Angular",
+     "clip": "AGNO-angular-11-Authentication",
+     "loom": null
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   },
+   "linkedFrom": "guides/troubleshooting"
+  },
+  {
+   "id": "multi-agent-subagents",
+   "label": "Sub Agents",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "multi-agent/subagents",
+   "reachable": "sidebar",
+   "status": "❌",
+   "findings": [
+    5
+   ],
+   "notes": [
+    "Issue: the setup step is empty (subagents setup is not bundled for agno): subagents.py has the three sub-agents and their tool functions but no supervisor agent and no AgentOS/AGUI app, and readDelegations / subAgentRendererConfig are never defined, so the delegation log stays empty."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "AGNO-angular-12-SubAgents",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-12-SubAgents.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "inspector",
+   "label": "Inspector",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "inspector",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [
+    13
+   ],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Inspector - Angular",
+     "clip": "AGNO-angular-13-Inspector",
+     "loom": null,
+     "narration": null
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "troubleshooting",
+   "label": "Troubleshooting",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "guides/troubleshooting",
+   "reachable": "sidebar",
+   "status": "✅",
+   "findings": [],
+   "notes": [],
+   "block": null,
+   "links": [
+    {
+     "text": "Troubleshooting - Angular",
+     "clip": "AGNO-angular-23-Troubleshooting",
+     "loom": null
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "cmp-components",
+   "label": "Components and surfaces",
+   "kind": "guide",
+   "group": null,
+   "child": false,
+   "docPath": "https://docs.copilotkit.ai/agno/generative-ui/components",
+   "reachable": "in-content",
+   "status": "❌",
+   "findings": [
+    14,
+    15
+   ],
+   "notes": [
+    "Issue: the page's Angular code imports @copilotkit/angular/generative-ui, which the latest package (0.6.0) doesn't have, so the app won't build; and the Try it runtime never replies (server.ts won't start under tsx in an Angular app, then every run fails with \"chat() needs a threadId\").",
+    "Note: Angular tab on the /agno Declarative pages, announced by the team."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "AGNO-angular-14-ComponentsAndSurfaces",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-14-ComponentsAndSurfaces.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "cmp-surfaces",
+   "label": "Surfaces",
+   "kind": "guide",
+   "group": null,
+   "child": true,
+   "docPath": "https://docs.copilotkit.ai/agno/generative-ui/components/surfaces",
+   "reachable": "in-content",
+   "status": "❌",
+   "findings": [
+    14,
+    16
+   ],
+   "notes": [
+    "Issue: the Angular code imports @copilotkit/angular/generative-ui, which the latest package (0.6.0) doesn't have, so the app won't build and no generated UI renders.",
+    "Note: Angular tab on the /agno Declarative pages, announced by the team."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "AGNO-angular-15-Surfaces",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-15-Surfaces.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "cmp-catalogs",
+   "label": "Catalogs",
+   "kind": "guide",
+   "group": null,
+   "child": true,
+   "docPath": "https://docs.copilotkit.ai/agno/generative-ui/components/catalogs",
+   "reachable": "in-content",
+   "status": "❌",
+   "findings": [
+    14,
+    16
+   ],
+   "notes": [
+    "Issue: the Angular code imports @copilotkit/angular/generative-ui, which the latest package (0.6.0) doesn't have, so the app won't build and no generated UI renders.",
+    "Note: Angular tab on the /agno Declarative pages, announced by the team."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "AGNO-angular-16-Catalogs",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-16-Catalogs.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "cmp-standard-catalog",
+   "label": "Standard catalog",
+   "kind": "guide",
+   "group": null,
+   "child": true,
+   "docPath": "https://docs.copilotkit.ai/generative-ui/components/standard-catalog",
+   "reachable": "in-content",
+   "status": "❌",
+   "findings": [
+    14,
+    16
+   ],
+   "notes": [
+    "Issue: the Angular code imports @copilotkit/angular/generative-ui, which the latest package (0.6.0) doesn't have, so the app won't build and no generated UI renders.",
+    "Note: Angular tab on the /agno Declarative pages, announced by the team."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "AGNO-angular-17-StandardCatalog",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-17-StandardCatalog.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "cmp-state-and-actions",
+   "label": "State and actions",
+   "kind": "guide",
+   "group": null,
+   "child": true,
+   "docPath": "https://docs.copilotkit.ai/agno/generative-ui/components/state-and-actions",
+   "reachable": "in-content",
+   "status": "❌",
+   "findings": [
+    14,
+    16
+   ],
+   "notes": [
+    "Issue: the Angular code imports @copilotkit/angular/generative-ui, which the latest package (0.6.0) doesn't have, so the app won't build and no generated UI renders.",
+    "Note: Angular tab on the /agno Declarative pages, announced by the team."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "AGNO-angular-18-StateAndActions",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-18-StateAndActions.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "cmp-theming",
+   "label": "Theming",
+   "kind": "guide",
+   "group": null,
+   "child": true,
+   "docPath": "https://docs.copilotkit.ai/agno/generative-ui/components/theming",
+   "reachable": "in-content",
+   "status": "❌",
+   "findings": [
+    14
+   ],
+   "notes": [
+    "Issue: the Angular code imports @copilotkit/angular/generative-ui, which the latest package (0.6.0) doesn't have, so the app won't build and no generated UI renders.",
+    "Note: Angular tab on the /agno Declarative pages, announced by the team."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "AGNO-angular-19-Theming",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-19-Theming.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "cmp-transports",
+   "label": "Transports",
+   "kind": "guide",
+   "group": null,
+   "child": true,
+   "docPath": "https://docs.copilotkit.ai/agno/generative-ui/components/transports",
+   "reachable": "in-content",
+   "status": "❌",
+   "findings": [
+    14
+   ],
+   "notes": [
+    "Issue: the Angular code imports @copilotkit/angular/generative-ui, which the latest package (0.6.0) doesn't have, so the app won't build and no generated UI renders.",
+    "Note: Angular tab on the /agno Declarative pages, announced by the team."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "AGNO-angular-20-Transports",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-20-Transports.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "cmp-markdown-mode",
+   "label": "Markdown mode",
+   "kind": "guide",
+   "group": null,
+   "child": true,
+   "docPath": "https://docs.copilotkit.ai/agno/generative-ui/components/markdown-mode",
+   "reachable": "in-content",
+   "status": "❌",
+   "findings": [
+    14
+   ],
+   "notes": [
+    "Issue: the Angular code imports @copilotkit/angular/generative-ui, which the latest package (0.6.0) doesn't have, so the app won't build and no generated UI renders.",
+    "Note: Angular tab on the /agno Declarative pages, announced by the team."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "AGNO-angular-21-MarkdownMode",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-21-MarkdownMode.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  },
+  {
+   "id": "cmp-from-a2ui",
+   "label": "Adopt from A2UI",
+   "kind": "guide",
+   "group": null,
+   "child": true,
+   "docPath": "https://docs.copilotkit.ai/agno/generative-ui/components/from-a2ui",
+   "reachable": "in-content",
+   "status": "❌",
+   "findings": [
+    14,
+    16
+   ],
+   "notes": [
+    "Issue: the Angular code imports @copilotkit/angular/generative-ui, which the latest package (0.6.0) doesn't have, so the app won't build and no generated UI renders.",
+    "Note: Angular tab on the /agno Declarative pages, announced by the team."
+   ],
+   "block": null,
+   "links": [
+    {
+     "text": "Not Working",
+     "clip": "AGNO-angular-22-AdoptFromA2ui",
+     "loom": null,
+     "narration": "narration/scripts/AGNO-angular-22-AdoptFromA2ui.json"
+    }
+   ],
+   "review": {
+    "verdict": null,
+    "approvedAt": null,
+    "by": null
+   }
+  }
+ ],
+ "quickstartBlocked": "the Angular quickstart's backend step is only a callout (agent setup is not bundled for agno): no Agno agent, no runtime server and no @ag-ui/client install, so a reader has no working Angular app to build on"
+}

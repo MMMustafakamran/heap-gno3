@@ -1,0 +1,132 @@
+{
+ "root": "angular/agno",
+ "savedAt": "2026-11-13",
+ "pages": {
+  "/angular/agno/build-with-agents": [],
+  "/angular/agno/webmcp": [
+   "/angular/agno/guides/frontend-tools-generative-ui"
+  ],
+  "/angular/agno": [
+   "/angular/agno/backend/copilot-runtime",
+   "/angular/agno/inspector"
+  ],
+  "/angular/agno/quickstart": [
+   "/angular/agno/backend/copilot-runtime",
+   "/angular/agno/inspector"
+  ],
+  "/angular/agno/multi-agent/subagents": [
+   "/angular/agno/guides/shared-state"
+  ],
+  "/angular/agno/auth": [
+   "/angular/agno/backend/copilot-runtime",
+   "/angular/agno/backend/runtime-endpoints",
+   "/angular/agno/runtime-server-adapter"
+  ],
+  "/angular/agno/learning": [
+   "/angular/agno/cli",
+   "/angular/agno/guides/threads-memory-attachments-headless",
+   "/angular/agno/inspector",
+   "/angular/agno/intelligence/learned-skills",
+   "/angular/agno/intelligence/memories",
+   "/angular/agno/intelligence/overview",
+   "/angular/agno/intelligence/quickstart",
+   "/angular/agno/intelligence/standalone-collector",
+   "/angular/agno/intelligence/threads-explained"
+  ],
+  "/angular/agno/copilot-runtime": [
+   "/angular/agno/agentic-protocols/ag-ui",
+   "/angular/agno/guides/threads-memory-attachments-headless",
+   "/angular/agno/guides/troubleshooting",
+   "/angular/agno/inspector",
+   "/angular/agno/intelligence/managed-intelligence-platform",
+   "/angular/agno/intelligence/quickstart",
+   "/angular/agno/intelligence/self-hosting",
+   "/angular/agno/quickstart"
+  ],
+  "/angular/agno/inspector": [
+   "/angular/agno/guides/troubleshooting",
+   "/angular/agno/inspector",
+   "/angular/agno/troubleshooting/event-inspector"
+  ],
+  "/angular/agno/ag-ui": [
+   "/angular/agno/backend/custom-ag-ui-agent"
+  ],
+  "/angular/agno/using-these-docs": [
+   "/angular/agno",
+   "/angular/agno/backend/copilot-runtime",
+   "/angular/agno/features",
+   "/angular/agno/guides/chat-ui",
+   "/angular/agno/guides/frontend-tools-generative-ui",
+   "/angular/agno/guides/generative-ui-components",
+   "/angular/agno/guides/human-in-the-loop",
+   "/angular/agno/guides/shared-state",
+   "/angular/agno/guides/threads-memory-attachments-headless",
+   "/angular/agno/guides/troubleshooting",
+   "/angular/agno/intelligence/overview"
+  ],
+  "/angular/agno/features": [],
+  "/angular/agno/guides/chat-ui": [
+   "/angular/agno",
+   "/angular/agno/features"
+  ],
+  "/angular/agno/guides/frontend-tools-generative-ui": [
+   "/angular/agno/features",
+   "/angular/agno/guides/generative-ui-components"
+  ],
+  "/angular/agno/guides/a2ui": [
+   "/angular/agno/features",
+   "/angular/agno/guides/frontend-tools-generative-ui"
+  ],
+  "/angular/agno/guides/voice-multimodal": [
+   "/angular/agno/features",
+   "/angular/agno/guides/chat-ui",
+   "/angular/agno/guides/voice-multimodal"
+  ],
+  "/angular/agno/guides/human-in-the-loop": [
+   "/angular/agno/features"
+  ],
+  "/angular/agno/guides/shared-state": [
+   "/angular/agno/features"
+  ],
+  "/angular/agno/guides/threads-memory-attachments-headless": [
+   "/angular/agno/features"
+  ],
+  "/angular/agno/guides/troubleshooting": [
+   "/angular/agno/auth",
+   "/angular/agno/backend/runtime-endpoints",
+   "/angular/agno/guides/frontend-tools-generative-ui",
+   "/angular/agno/inspector",
+   "/angular/agno/troubleshooting/common-issues",
+   "/angular/agno/troubleshooting/debug-mode",
+   "/angular/agno/troubleshooting/event-inspector"
+  ],
+  "/angular/agno/contributing/code-contributions/package-linking": [],
+  "/angular/agno/contributing/docs-contributions": [],
+  "/angular/agno/telemetry": [],
+  "/angular/agno/troubleshooting/common-issues": [
+   "/angular/agno/backend/agent-runner",
+   "/angular/agno/backend/runtime-endpoints",
+   "/angular/agno/deploy/agentcore",
+   "/angular/agno/guides/troubleshooting",
+   "/angular/agno/intelligence/self-hosting",
+   "/angular/agno/quickstart",
+   "/angular/agno/troubleshooting/error-debugging",
+   "/angular/agno/troubleshooting/error-reference"
+  ],
+  "/angular/agno/community-frameworks": [],
+  "/angular/agno/guides/generative-ui-components": [
+   "/angular/agno/generative-ui/components",
+   "/angular/agno/generative-ui/components/catalogs",
+   "/angular/agno/generative-ui/components/markdown-mode",
+   "/angular/agno/generative-ui/components/state-and-actions",
+   "/angular/agno/generative-ui/components/surfaces",
+   "/angular/agno/generative-ui/components/theming",
+   "/angular/agno/generative-ui/components/transports",
+   "/angular/agno/guides/a2ui"
+  ],
+  "/angular/agno/contributing/code-contributions": [
+   "/angular/agno/contributing/code-contributions/package-linking",
+   "/angular/agno/guides/troubleshooting"
+  ]
+ }
+}

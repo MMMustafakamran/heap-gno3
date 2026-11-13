@@ -59,8 +59,9 @@
     {
      "text": "Not Working",
      "clip": "AGNO-angular-01-Quickstart",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-01-Quickstart.json"
+     "loom": "https://www.loom.com/share/bfe1a966224342e88d74be88160d773c",
+     "narration": "narration/scripts/AGNO-angular-01-Quickstart.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -85,8 +86,9 @@
     {
      "text": "Chat UI and Customization - Angular",
      "clip": "AGNO-angular-02-ChatUi",
-     "loom": null,
-     "narration": null
+     "loom": "https://www.loom.com/share/b4f39de33e3149f7b4579e48a891795a",
+     "narration": null,
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -267,8 +269,9 @@
     {
      "text": "Issue",
      "clip": "AGNO-angular-08-SharedState",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-08-SharedState.json"
+     "loom": "https://www.loom.com/share/cbf1c2a87e7d4b74bbe29ee04b5ce177",
+     "narration": "narration/scripts/AGNO-angular-08-SharedState.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -442,7 +445,8 @@
     {
      "text": "Troubleshooting - Angular",
      "clip": "AGNO-angular-23-Troubleshooting",
-     "loom": null
+     "loom": "https://www.loom.com/share/7ea4d95961c94dee947d05610732d875",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -473,8 +477,9 @@
     {
      "text": "Not Working",
      "clip": "AGNO-angular-14-ComponentsAndSurfaces",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-14-ComponentsAndSurfaces.json"
+     "loom": "https://www.loom.com/share/14ee78f2db2745a28075f33dfebb35df",
+     "narration": "narration/scripts/AGNO-angular-14-ComponentsAndSurfaces.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -505,8 +510,9 @@
     {
      "text": "Not Working",
      "clip": "AGNO-angular-15-Surfaces",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-15-Surfaces.json"
+     "loom": "https://www.loom.com/share/83a7dc7f9d244342b9a0fbb5b79dc1a6",
+     "narration": "narration/scripts/AGNO-angular-15-Surfaces.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -537,8 +543,9 @@
     {
      "text": "Not Working",
      "clip": "AGNO-angular-16-Catalogs",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-16-Catalogs.json"
+     "loom": "https://www.loom.com/share/637e5d57d51e442d97e78f057eed7220",
+     "narration": "narration/scripts/AGNO-angular-16-Catalogs.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -569,8 +576,9 @@
     {
      "text": "Not Working",
      "clip": "AGNO-angular-17-StandardCatalog",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-17-StandardCatalog.json"
+     "loom": "https://www.loom.com/share/071705fe4db14bc295b95e62004b98cd",
+     "narration": "narration/scripts/AGNO-angular-17-StandardCatalog.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -601,8 +609,9 @@
     {
      "text": "Not Working",
      "clip": "AGNO-angular-18-StateAndActions",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-18-StateAndActions.json"
+     "loom": "https://www.loom.com/share/d0b9c9350ceb4b2fabc862013ae291c3",
+     "narration": "narration/scripts/AGNO-angular-18-StateAndActions.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -632,8 +641,9 @@
     {
      "text": "Not Working",
      "clip": "AGNO-angular-19-Theming",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-19-Theming.json"
+     "loom": "https://www.loom.com/share/2829472a6c394cb7b5d65d1e8b4b69e5",
+     "narration": "narration/scripts/AGNO-angular-19-Theming.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -663,8 +673,9 @@
     {
      "text": "Not Working",
      "clip": "AGNO-angular-20-Transports",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-20-Transports.json"
+     "loom": "https://www.loom.com/share/af062dfe79ea421cadd84f8cb415857a",
+     "narration": "narration/scripts/AGNO-angular-20-Transports.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -694,8 +705,9 @@
     {
      "text": "Not Working",
      "clip": "AGNO-angular-21-MarkdownMode",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-21-MarkdownMode.json"
+     "loom": "https://www.loom.com/share/07dc285f19454987acda1aef2f29f8f4",
+     "narration": "narration/scripts/AGNO-angular-21-MarkdownMode.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -726,8 +738,9 @@
     {
      "text": "Not Working",
      "clip": "AGNO-angular-22-AdoptFromA2ui",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-22-AdoptFromA2ui.json"
+     "loom": "https://www.loom.com/share/1f394a21d4ea4553868235139628df62",
+     "narration": "narration/scripts/AGNO-angular-22-AdoptFromA2ui.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {

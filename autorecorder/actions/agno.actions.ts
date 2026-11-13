@@ -95,9 +95,9 @@ export const FINDING_NOTES: Record<string, string> = {
     'no agno agent, no runtime server.ts, and @ag-ui/client is not in the install step',
     'the copilot runtime page it links only has a next.js route.ts with an HttpAgent example,no agno agent no node server',
     'so following the page the chat has nothing to talk to',
-    'this chat only works bc i wrote backend/main.py with AGUIStream on fastapi',
-    'and frontend/server.ts with an HttpAgent myself',
-    'POST /agent without the trailing slash gives 307 and the run dies',
+    'this chat only works bc i wrote backend/main.py myself from the react agno quickstart,agentos with the agui interface',
+    'and frontend/server.ts with an HttpAgent pointing at /agui',
+    'agentos also wont start without python-multipart',
   ].join('\n'),
   'generative-ui-components': [
     'the page imports provideGenerativeUI and standardUI from @copilotkit/angular/generative-ui',
@@ -125,7 +125,7 @@ export const FINDING_NOTES: Record<string, string> = {
     'i set priority to high with mark high priority, thats agent.setState',
     'then asked the agent what the priority is and it says it doesnt see any priority',
     'every time i tried, page says agent and application both read and write the value',
-    'agno does copy the state into the agent context variables but nothing puts it in the prompt',
+    'agno keeps the app state as session state but nothing puts it in the prompt',
     'and the page never shows how an agno agent reads that state',
   ].join('\n'),
   'multi-agent-subagents': [

@@ -116,8 +116,9 @@
     {
      "text": "Frontend tools and generative UI - Angular",
      "clip": "AGNO-angular-03-FrontendToolsGenerativeUi",
-     "loom": null,
-     "narration": null
+     "loom": "https://www.loom.com/share/bb0c1814a99a432fb395ad9b5870637d",
+     "narration": null,
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -146,8 +147,9 @@
     {
      "text": "Not Working",
      "clip": "AGNO-angular-04-NativeGenerativeUi",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-04-NativeGenerativeUi.json"
+     "loom": "https://www.loom.com/share/36ba17fdcdca482f8eac250263d7207a",
+     "narration": "narration/scripts/AGNO-angular-04-NativeGenerativeUi.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -176,8 +178,9 @@
     {
      "text": "Issue",
      "clip": "AGNO-angular-05-A2ui",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-05-A2ui.json"
+     "loom": "https://www.loom.com/share/90b56e1d80064420aed584017402d102",
+     "narration": "narration/scripts/AGNO-angular-05-A2ui.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -206,8 +209,9 @@
     {
      "text": "Issue",
      "clip": "AGNO-angular-06-VoiceMultimodal",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-06-VoiceMultimodal.json"
+     "loom": "https://www.loom.com/share/fbb3894fbe1b431bb11633e2a007cd05",
+     "narration": "narration/scripts/AGNO-angular-06-VoiceMultimodal.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -232,8 +236,9 @@
     {
      "text": "Human-in-the-loop and interrupts - Angular",
      "clip": "AGNO-angular-07-HumanInTheLoop",
-     "loom": null,
-     "narration": null
+     "loom": "https://www.loom.com/share/2e0de19f3a0143a4a85f80c632d3a001",
+     "narration": null,
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -288,8 +293,9 @@
     {
      "text": "Threads, memory, attachments, and headless UI - Angular",
      "clip": "AGNO-angular-09-ThreadsMemoryHeadless",
-     "loom": null,
-     "narration": null
+     "loom": "https://www.loom.com/share/71422436fb50422ab629c116b58e97f4",
+     "narration": null,
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -318,8 +324,9 @@
     {
      "text": "WebMCP - Angular",
      "clip": "AGNO-angular-10-WebMcp",
-     "loom": null,
-     "narration": null
+     "loom": "https://www.loom.com/share/b4a01a6b75c141ba8f9a285417e8e4be",
+     "narration": null,
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -348,7 +355,8 @@
     {
      "text": "Authentication - Angular",
      "clip": "AGNO-angular-11-Authentication",
-     "loom": null
+     "loom": "https://www.loom.com/share/8dbdda7e27a54d778b429ec26626331e",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -378,8 +386,9 @@
     {
      "text": "Not Working",
      "clip": "AGNO-angular-12-SubAgents",
-     "loom": null,
-     "narration": "narration/scripts/AGNO-angular-12-SubAgents.json"
+     "loom": "https://www.loom.com/share/07d6c0422776401ea3d9aa00f18516cd",
+     "narration": "narration/scripts/AGNO-angular-12-SubAgents.json",
+     "filmed": "2026-11-13"
     }
    ],
    "review": {
@@ -406,8 +415,9 @@
     {
      "text": "Inspector - Angular",
      "clip": "AGNO-angular-13-Inspector",
-     "loom": null,
-     "narration": null
+     "loom": "https://www.loom.com/share/4513bee58392498a9ba96838a40564d1",
+     "narration": null,
+     "filmed": "2026-11-13"
     }
    ],
    "review": {

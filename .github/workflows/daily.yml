@@ -178,8 +178,7 @@ jobs:
           PAGES=$(python3 - "$PAGES" <<'PY'
           import json, sys
           pages = [p for p in sys.argv[1].split(",") if p]
-          # HARNESS (owner 2026-11-13): scope=all records every page anyway (8b: keep testing on the harness setup).
-          if json.load(open("assignment.json", encoding="utf8")).get("quickstartBlocked") and "${{ inputs.scope }}" != "all":
+          if json.load(open("assignment.json", encoding="utf8")).get("quickstartBlocked"):
               keep = [p for p in pages if "quickstart" in p]
               print(f"quickstartBlocked: recording only {keep or 'nothing'} (skipped {len(pages) - len(keep)} pages)", file=sys.stderr)
               pages = keep
